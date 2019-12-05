@@ -11,7 +11,7 @@
 运行：“mvn package”
 
 
-3.命令窗口进入target 目录 cd target
+2.命令窗口进入target 目录 cd target
 
 运行 "java -jar EnNinePalaceInputMethod-0.0.1-SNAPSHOT.jar"
 
