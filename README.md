@@ -6,14 +6,16 @@
 
 运行并测试的步骤:
 
-1.将项目克隆到本地，进入项目目录，并运行命令窗口
+1.将项目克隆到本地，进入项目目录，并运行命令窗口(可在文件夹目录路径输入"cmd")
 
-运行：“mvn package”
+命令窗口输入：“mvn package”,打包成jar包，可以查看到target目录下生成的jar包 EnNinePalaceInputMethod-0.0.1-SNAPSHOT.jar
 
 
-2.命令窗口进入target 目录 cd target
+2.命令窗口进入target 目录 可直接输入命令"cd target"进入
 
-运行 "java -jar EnNinePalaceInputMethod-0.0.1-SNAPSHOT.jar"
+命令窗口输入 "java -jar EnNinePalaceInputMethod-0.0.1-SNAPSHOT.jar"，运行该项目
+
+运行结果输出如下图
 
 ![结果输出](https://github.com/CarolineAB/currencyConverter/blob/master/images/%E4%B9%9D%E8%BC%B8.jpg)
 
@@ -24,13 +26,16 @@
 2.未输入/操作频繁 提示“请输入数字！”
 
 设计说明：
+
 1.该test为一个类似于九宫格输入的测试，考虑到更贴近输入法，输入数据无需间隔开
 
 原文要求 ”the program need to support converting the digits from 0 to 99 in letters“因此当前仅支持两位数的转换
 
-并将特殊按键设计为“0，1，00，11”等数据为原样输出
+出于个人考虑，将特殊按键设计为“0，1，00，11”等数据为原样输出
 
 2.该test基于spring boot ，依赖maven环境,coding实现作为监听加入到spring容器中，启动main方法即可运行项目
+
+单元测试结果如下图：
 
 ![junit 测试结果](https://github.com/CarolineAB/currencyConverter/blob/master/images/9junit.jpg)
 
