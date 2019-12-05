@@ -9,7 +9,6 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class EnNinePalaceInputMethodApplication {
-//	static PrintlnServiceImpl psl = new PrintlnServiceImpl();
 	public static void main(String[] args) {
 //		SpringApplication.run(EnNinePalaceInputMethodApplication.class, args);
 //		psl.writer();

@@ -58,7 +58,10 @@ public class PrintlnServiceImpl extends ApplicationEvent {
 	        }
 	}
 	
-	
+	/**
+	 * 组合输出
+	 * @param map
+	 */
 	public static void combination(Map<Integer, String> map) {// 控制台监听
 		for (int i = 0; i < map.size(); i++) {
 			String s1 = map.get(i);
@@ -88,7 +91,11 @@ public class PrintlnServiceImpl extends ApplicationEvent {
 		System.out.println("");
 	}
 	
-	
+	/**
+	 * 获取英文字母
+	 * @param num
+	 * @return
+	 */
 	public static String getWordsByNum(char num) {
 		String strArr = null ;
 		switch (num) {
