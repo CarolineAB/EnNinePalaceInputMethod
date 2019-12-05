@@ -85,7 +85,7 @@ public class PrintlnServiceImpl extends ApplicationEvent {
 				}
 			}
 		}
-		System.out.println();
+		System.out.println("");
 	}
 	
 	
