@@ -1,8 +1,7 @@
 # EnNinePalaceInputMethod
 类九宫格输入法
 
-![test原文]
-https://github.com/CarolineAB/currencyConverter/blob/master/images/%E4%B9%9D%E5%AE%AB%E6%A0%BC%E8%BE%93%E5%85%A5%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0.jpg
+![test原文](https://github.com/CarolineAB/currencyConverter/blob/master/images/%E4%B9%9D%E5%AE%AB%E6%A0%BC%E8%BE%93%E5%85%A5%E9%97%AE%E9%A2%98%E6%8F%8F%E8%BF%B0.jpg)
  
 
 运行并测试的步骤:
@@ -16,7 +15,7 @@ https://github.com/CarolineAB/currencyConverter/blob/master/images/%E4%B9%9D%E5%
 
 运行 "java -jar EnNinePalaceInputMethod-0.0.1-SNAPSHOT.jar"
 
-![结果输出]https://github.com/CarolineAB/currencyConverter/blob/master/images/%E4%B9%9D%E8%BC%B8.jpg
+![结果输出](https://github.com/CarolineAB/currencyConverter/blob/master/images/%E4%B9%9D%E8%BC%B8.jpg)
 
 异常说明:
 
@@ -33,5 +32,5 @@ https://github.com/CarolineAB/currencyConverter/blob/master/images/%E4%B9%9D%E5%
 
 2.该test基于spring boot ，依赖maven环境,coding实现作为监听加入到spring容器中，启动main方法即可运行项目
 
-![junit 测试结果]https://github.com/CarolineAB/currencyConverter/blob/master/images/9junit.jpg
+![junit 测试结果](https://github.com/CarolineAB/currencyConverter/blob/master/images/9junit.jpg)
 
