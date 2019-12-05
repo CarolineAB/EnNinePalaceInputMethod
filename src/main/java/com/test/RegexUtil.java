@@ -15,10 +15,17 @@ public class RegexUtil {
         Pattern pattern = Pattern.compile("[0-9]{1,2}?");
         return pattern.matcher(str).matches();
     }
-	
+	public static byte[] intToBytes(int a, int length) {
+	    byte[] bs = new byte[length];
+	    for (int i = bs.length - 1; i >= 0; i--) {
+	        bs[i] = (byte) (a % 255);
+	        a = a / 255;
+	    }
+	    return bs;
+	}
 	
 	public static void main(String[] args) {
-		boolean numberic = isNumberlow3("99");
-		System.out.println(numberic);
+		byte[] intToBytes = intToBytes(99,2);
+		System.out.println(intToBytes);
 	}
 }
