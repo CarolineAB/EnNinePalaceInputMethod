@@ -3,16 +3,17 @@ package com.test;
 import java.util.HashMap;
 import java.util.Map;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class PrintlnServiceImplTest {
 	
-//	private static PrintlnServiceImpl psl;
+	private static PrintlnServiceImpl psl;
 	
-//	@BeforeClass
-//	public static void before(){
-//		psl = new PrintlnServiceImpl(1);
-//	}
+	@BeforeClass
+	public static void before(){
+		psl = new PrintlnServiceImpl(1);
+	}
 
 	@Test
 	public void testWriter() {
@@ -23,7 +24,7 @@ public class PrintlnServiceImplTest {
 	@Test
 	public  void testGetWordsByNum() {
 			char c = '2';
-			String wordsByNum =new PrintlnServiceImpl(2).getWordsByNum(c);
+			String wordsByNum =psl.getWordsByNum(c);
 			System.out.println(wordsByNum);
 	}
 	@Test
@@ -31,6 +32,6 @@ public class PrintlnServiceImplTest {
 		Map<Integer, String> map = new HashMap<>();
 		map.put(0, "a,b,c");
 		map.put(1, "d,e,f");
-		new PrintlnServiceImpl(2).combination(map);
+		 psl.combination(map);
 	}
 }
