@@ -38,4 +38,5 @@
 单元测试结果如下图：
 
 ![junit 测试结果](https://github.com/CarolineAB/currencyConverter/blob/master/images/9junit.jpg)
-
+![组合](https://github.com/CarolineAB/currencyConverter/blob/master/images/jc.jpg)
+![获取字母](https://github.com/CarolineAB/currencyConverter/blob/master/images/jg.jpg)
